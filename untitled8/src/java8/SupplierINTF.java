@@ -21,7 +21,7 @@ public class SupplierINTF {
         System.out.println(randomNumberSupplier.get()); // Output: e.g., 0.189374923
 
         //ONE simple boolean example
-        Supplier<Boolean> BoolExample = () -> greetingSupplier.get().isEmpty();
+        Supplier<Boolean> BoolExample = () -> greetingSupplier.get().equals("Hello");
         System.out.println(BoolExample.get());
     }
 }
